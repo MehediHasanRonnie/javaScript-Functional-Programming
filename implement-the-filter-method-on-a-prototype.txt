@@ -1,0 +1,9 @@
+Array.prototype.myFilter = function(callback) {
+  const newArray = [];
+  // Only change code below this line
+for(const elme of this){
+  if(callback(elme)) newArray.push(elme);
+}
+  // Only change code above this line
+  return newArray;
+};
